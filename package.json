@@ -1,0 +1,25 @@
+{
+	"name": "suifrens",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"api": "pnpm --filter ./api",
+		"shared": "pnpm --filter ./shared",
+		"preview": "pnpm --filter ./preview",
+		"lint": "pnpm run prettier:check",
+		"prettier:check": "prettier -c --ignore-unknown .",
+		"prettier:fix": "prettier -w --ignore-unknown .",
+		"prettier:fix:watch": "onchange '**' -i -f add -f change -j 5 -- prettier -w --ignore-unknown {{file}}"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.3",
+		"prettier-plugin-tailwindcss": "^0.2.2",
+		"turbo": "^1.10.7"
+	},
+	"engines": {
+		"pnpm": ">=8.6.5"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

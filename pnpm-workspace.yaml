@@ -1,0 +1,4 @@
+packages:
+  - 'api'
+  - 'shared'
+  - 'preview'
