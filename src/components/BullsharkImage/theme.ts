@@ -1,5 +1,5 @@
-import { assertUnreachable } from "../../../utils/assertUnreachable.js";
-import { type BullsharkSkin } from "../../../types/bullsharkTypes.js";
+import { assertUnreachable } from "../../utils/assertUnreachable.js";
+import { type BullsharkSkin } from "../../types/bullsharkTypes.js";
 
 export function getThemeFromSkin(
   skin: BullsharkSkin,

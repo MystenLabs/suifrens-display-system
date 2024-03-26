@@ -1,4 +1,4 @@
-import { assertUnreachable } from "../../../../utils/assertUnreachable.js";
+import { assertUnreachable } from "../../../utils/assertUnreachable.js";
 import { DefaultLeftEar, DefaultLeftEarProps } from "./Left/DefaultLeftEar.js";
 import {
   MischievousLeftEar,

@@ -1,6 +1,6 @@
 import { type SVGProps, type ComponentType } from "react";
 
-import { type CapySkin } from "../../../../../types/capyTypes.js";
+import { type CapySkin } from "../../../../types/capyTypes.js";
 import { DalmationLeftLegPattern } from "./Patterns/DalmationLeftLegPattern.js";
 import { SnakeLeftLegPattern } from "./Patterns/SnakeLeftLegPattern.js";
 

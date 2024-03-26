@@ -1,4 +1,4 @@
-import { assertUnreachable } from "../../../../utils/assertUnreachable.js";
+import { assertUnreachable } from "../../../utils/assertUnreachable.js";
 import {
   DefaultRightEar,
   DefaultRightEarProps,

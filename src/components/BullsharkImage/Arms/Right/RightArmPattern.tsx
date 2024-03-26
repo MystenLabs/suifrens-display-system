@@ -1,6 +1,6 @@
 import { type SVGProps, type ComponentType } from "react";
 
-import { type BullsharkSkin } from "../../../../../types/bullsharkTypes.js";
+import { type BullsharkSkin } from "../../../../types/bullsharkTypes.js";
 import { DalmationRightArmPattern } from "./Patterns/DalmationRightArmPattern.js";
 import { SnakeRightArmPattern } from "./Patterns/SnakeRightArmPattern.js";
 

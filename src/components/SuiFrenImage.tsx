@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 import { BullsharkImage } from "./BullsharkImage/BullsharkImage.js";
-import { SuiFrenAttributes } from "../../types/suiFrenTypes.js";
-import { AccessoryMetadata } from "../../types/accessoryTypes.js";
-import { assertUnreachable } from "../../utils/assertUnreachable.js";
+import { SuiFrenAttributes } from "../types/suiFrenTypes.js";
+import { AccessoryMetadata } from "../types/accessoryTypes.js";
+import { assertUnreachable } from "../utils/assertUnreachable.js";
 import { CapyImage } from "./CapyImage/CapyImage.js";
-import { getAccessoriesByType } from "../../utils/accessoryUtils.js";
+import { getAccessoriesByType } from "../utils/accessoryUtils.js";
 
 type SuiFrenImageProps = {
   attributes: SuiFrenAttributes;
