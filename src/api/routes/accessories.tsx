@@ -3,7 +3,7 @@ import { Type, TypeBoxTypeProvider } from "@fastify/type-provider-typebox";
 
 import { renderToStaticMarkup } from "react-dom/server";
 
-import { SuiFrenImage } from "../../components/Images/SuiFrenImage.js";
+import { SuiFrenImage } from "../../components/SuiFrenImage.js";
 import {
   designerToPartnerLogo,
   accessories as suiFrensAccessories,

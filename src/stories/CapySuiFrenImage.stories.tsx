@@ -1,9 +1,9 @@
 import { type Meta, type StoryObj } from "@storybook/react";
-import { SuiFrenImage } from "../components/Images/SuiFrenImage.js";
+import { SuiFrenImage } from "../components/SuiFrenImage.js";
 import { accessories } from "../constants/accessories.js";
 import { type ComponentProps } from "react";
 import { CapyAttributes, CapyExpression } from "../types/capyTypes.js";
-import { SuiLogo } from "../components/Images/Logos/SuiLogo.js";
+import { SuiLogo } from "../components/Logos/SuiLogo.js";
 
 const allPossibleExpressions: CapyExpression[] = [
   "angry",

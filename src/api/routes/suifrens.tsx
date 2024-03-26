@@ -3,7 +3,7 @@ import { Type, TypeBoxTypeProvider } from "@fastify/type-provider-typebox";
 import { renderToStaticMarkup } from "react-dom/server";
 
 import { getSuiFrenAttributesAndAccessories } from "../client/sui-client.js";
-import { SuiFrenImage } from "../../components/Images/SuiFrenImage.js";
+import { SuiFrenImage } from "../../components/SuiFrenImage.js";
 
 export const suifrens: FastifyPluginAsync = async (fastify) => {
   fastify.withTypeProvider<TypeBoxTypeProvider>().get(

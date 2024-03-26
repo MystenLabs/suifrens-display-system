@@ -3,7 +3,7 @@ import {
   AccessoryDesigner,
   AccessoryMetadata,
 } from "../types/accessoryTypes.js";
-import { SuiLogo } from "../components/Images/Logos/SuiLogo.js";
+import { SuiLogo } from "../components/Logos/SuiLogo.js";
 
 export const designerToPartnerLogo: Record<AccessoryDesigner, ReactNode> = {
   "mysten-labs": <SuiLogo />,
