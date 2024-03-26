@@ -19,7 +19,7 @@ import { ShockedExpression } from "./Expressions/ShockedExpression.js";
 import { SleepyExpression } from "./Expressions/SleepyExpression.js";
 import { TongueOutExpression } from "./Expressions/TongueOutExpression.js";
 import { WinkExpression } from "./Expressions/WinkExpression.js";
-import { type BullsharkExpression } from "../../../types/bullsharkTypes.js";
+import { type BullsharkExpression } from "../../types/bullsharkTypes.js";
 
 type ExpressionProps = {
   expression: BullsharkExpression;

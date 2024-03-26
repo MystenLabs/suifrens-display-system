@@ -1,10 +1,10 @@
-import { AccessoryMetadata } from "../../../types/accessoryTypes.js";
+import { AccessoryMetadata } from "../../types/accessoryTypes.js";
 import { getThemeFromSkin } from "./theme.js";
 
 import { LeftEar } from "./Ears/LeftEar.js";
 import { RightEar } from "./Ears/RightEar.js";
 import { Expression } from "./Expression.js";
-import { CapyAttributes } from "../../../types/capyTypes.js";
+import { CapyAttributes } from "../../types/capyTypes.js";
 import { BodyPattern } from "./Body/BodyPattern.js";
 import { Body } from "./Body/Body.js";
 import { LeftArm } from "./Arms/Left/LeftArm.js";

@@ -19,7 +19,7 @@ import { ShockedExpression } from "./Expressions/ShockedExpression.js";
 import { SleepyExpression } from "./Expressions/SleepyExpression.js";
 import { TongueOutExpression } from "./Expressions/TongueOutExpression.js";
 import { WinkExpression } from "./Expressions/WinkExpression.js";
-import { type CapyExpression } from "../../../types/capyTypes.js";
+import { type CapyExpression } from "../../types/capyTypes.js";
 
 type ExpressionProps = {
   expression: CapyExpression;

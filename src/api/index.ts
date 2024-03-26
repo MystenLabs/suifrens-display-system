@@ -6,7 +6,15 @@ import { suifrens } from "./routes/suifrens.js";
 import { accessories } from "./routes/accessories.js";
 
 const fastify = Fastify({
-  logger: true,
+  logger: {
+	transport: {
+		target: 'pino-pretty',
+		options: {
+		  translateTime: 'HH:MM:ss Z',
+		  ignore: 'pid,hostname',
+		},
+	  },
+  }
 });
 
 // Register plugins:
@@ -28,5 +36,5 @@ fastify.listen({ port: 3000, host: "0.0.0.0" }, (err, address) => {
     fastify.log.error(err);
     process.exit(1);
   }
-  fastify.log.info(`Server listening on ${address}`);
+  fastify.log.info(`SuiFrens image rendering server started successfully!`);
 });

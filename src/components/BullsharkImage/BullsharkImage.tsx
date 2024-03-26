@@ -1,4 +1,4 @@
-import { AccessoryMetadata } from "../../../types/accessoryTypes.js";
+import { AccessoryMetadata } from "../../types/accessoryTypes.js";
 import { Body } from "./Body/Body.js";
 import { BodyPattern } from "./Body/BodyPattern.js";
 import { Expression } from "./Expression.js";
@@ -11,7 +11,7 @@ import { LeftLeg } from "./Legs/Left/LeftLeg.js";
 import { RightLeg } from "./Legs/Right/RightLeg.js";
 import { Tail } from "./Tail/Tail.js";
 import { getThemeFromSkin } from "./theme.js";
-import { BullsharkAttributes } from "../../../types/bullsharkTypes.js";
+import { BullsharkAttributes } from "../../types/bullsharkTypes.js";
 import { FinPattern } from "./Fin/FinPattern.js";
 import { TailPattern } from "./Tail/TailPattern.js";
 import { LeftLegPattern } from "./Legs/Left/LeftLegPattern.js";
