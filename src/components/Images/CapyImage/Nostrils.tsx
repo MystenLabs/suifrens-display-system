@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 export function Nostrils() {
   return (
     <g transform="matrix(2.9166107177734375, 0, 0, 2.9166107177734375, 2037.2,948.05)">

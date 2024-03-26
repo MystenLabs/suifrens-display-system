@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { FastifyPluginAsync } from "fastify";
 import { Type, TypeBoxTypeProvider } from "@fastify/type-provider-typebox";
 import { renderToStaticMarkup } from "react-dom/server";

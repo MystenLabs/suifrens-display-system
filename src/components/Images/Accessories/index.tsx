@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { Apron } from "./Body/Apron.js";
 import { Cardigan } from "./Body/Cardigan.js";
 import { LeatherJacket } from "./Body/LeatherJacket.js";

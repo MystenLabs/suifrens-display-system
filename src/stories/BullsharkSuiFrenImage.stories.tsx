@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { type Meta, type StoryObj } from "@storybook/react";
 import { SuiFrenImage } from "../components/Images/SuiFrenImage.js";
 import { accessories } from "../constants/accessories.js";

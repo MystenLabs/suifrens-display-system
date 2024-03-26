@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 export const colors = {
   D66959: "Japonica",
   B4B4B4: "Nobel",

@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { ReactNode } from "react";
 import { BullsharkImage } from "./BullsharkImage/BullsharkImage.js";
 import { SuiFrenAttributes } from "../../types/suiFrenTypes.js";

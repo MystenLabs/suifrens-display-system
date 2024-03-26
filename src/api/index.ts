@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import Fastify from "fastify";
 import cors from "@fastify/cors";
 import compress from "@fastify/compress";

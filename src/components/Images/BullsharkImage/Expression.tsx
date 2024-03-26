@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { ComponentType } from "react";
 import { AngryExpression } from "./Expressions/AngryExpression.js";
 import { AnnoyedExpression } from "./Expressions/AnnoyedExpression.js";

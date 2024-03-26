@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 export function BlushExpression() {
   return (
     <svg x="0px" y="0px" viewBox="0 0 3000 3000">

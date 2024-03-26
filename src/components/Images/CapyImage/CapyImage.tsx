@@ -1,6 +1,3 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 import { AccessoryMetadata } from "../../../types/accessoryTypes.js";
 import { getThemeFromSkin } from "./theme.js";
 
