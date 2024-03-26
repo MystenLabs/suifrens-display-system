@@ -4,8 +4,7 @@
 	"private": true,
 	"scripts": {
 		"api": "pnpm --filter ./api",
-		"shared": "pnpm --filter ./shared",
-		"preview": "pnpm --filter ./preview",
+		"ui": "pnpm --filter ./ui",
 		"lint": "pnpm run prettier:check",
 		"prettier:check": "prettier -c --ignore-unknown .",
 		"prettier:fix": "prettier -w --ignore-unknown .",

@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { type Meta, type StoryObj } from '@storybook/react';
-import { type CapyAttributes, SuiFrenImage, type CapyExpression, SuiLogo } from '@suifrens/shared';
-import { accessories } from '@suifrens/shared';
+import { type CapyAttributes, SuiFrenImage, type CapyExpression, SuiLogo } from '../';
+import { accessories } from '../';
 import { type ComponentProps } from 'react';
 
 const allPossibleExpressions: CapyExpression[] = [

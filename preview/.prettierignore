@@ -1,9 +1,0 @@
-dist/
-build/
-setup/.publish.res.json
-storybook-static/
-package-lock.json
-pnpm-lock.yaml
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*

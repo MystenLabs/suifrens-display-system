@@ -8,10 +8,10 @@ import {
 	extractBaseFrenType,
 	parseSuiFrenAttributes,
 	SuiFrenType,
-} from '@suifrens/shared';
+} from '@suifrens/ui';
 
 import { NETWORK, CAPY_TYPE, BULLSHARK_TYPE, ACCESSORIES_KEY_TYPE } from '../lib/config';
-import { AccessoryMetadata } from '@suifrens/shared';
+import { AccessoryMetadata } from '@suifrens/ui';
 
 const rpcUrl = getFullnodeUrl(NETWORK);
 const suiClient = new SuiClient({ url: rpcUrl });

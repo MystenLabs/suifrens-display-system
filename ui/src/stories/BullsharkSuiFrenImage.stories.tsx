@@ -2,13 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { type Meta, type StoryObj } from '@storybook/react';
-import {
-	type BullsharkAttributes,
-	SuiFrenImage,
-	type BullsharkExpression,
-	SuiLogo,
-} from '@suifrens/shared';
-import { accessories } from '@suifrens/shared';
+import { type BullsharkAttributes, SuiFrenImage, type BullsharkExpression, SuiLogo } from '../';
+import { accessories } from '../';
 import { type ComponentProps } from 'react';
 
 const allPossibleExpressions: BullsharkExpression[] = [

@@ -22,7 +22,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'punk',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -36,7 +36,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'grunge',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -50,7 +50,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'artist',
 		shopCategories: ['head-space', 'artist'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -64,7 +64,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'banker',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -78,7 +78,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -92,7 +92,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'swimmer',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -106,7 +106,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -120,7 +120,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -134,7 +134,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['suifties'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -148,7 +148,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['head-space', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -162,7 +162,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['head-space', 'cyber-frens', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -176,7 +176,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['head-space', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -190,7 +190,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'snorkel',
 		shopCategories: ['under-the-sui'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -204,7 +204,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['sui-specs', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -218,7 +218,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['sui-specs', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -232,7 +232,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['cyber-frens', 'sui-specs'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -246,7 +246,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['sui-specs', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -260,7 +260,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'artist',
 		shopCategories: ['artist'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -274,7 +274,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'grunge',
 		shopCategories: ['shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -288,7 +288,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'punk',
 		shopCategories: ['shirts-and-jackets', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -302,7 +302,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -316,7 +316,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'wizard',
 		shopCategories: ['shirts-and-jackets', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -330,7 +330,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['shirts-and-jackets', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -344,7 +344,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -358,7 +358,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'artist',
 		shopCategories: ['artist', 'bottoms'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -372,7 +372,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'grunge',
 		shopCategories: ['super-stars', 'bottoms', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -386,7 +386,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'punk',
 		shopCategories: ['bottoms', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -400,7 +400,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'banker',
 		shopCategories: ['bottoms', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -414,7 +414,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['bottoms', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -428,7 +428,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'snorkel',
 		shopCategories: ['under-the-sui'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -442,7 +442,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['cyber-frens', 'bottoms', 'sui-magicians', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -456,7 +456,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['suifties', 'bottoms'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -470,7 +470,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['super-stars', 'bottoms', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -484,7 +484,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'artist',
 		shopCategories: ['artist', 'tchotchkes'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -498,7 +498,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['artist', 'tchotchkes'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -512,7 +512,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['tchotchkes'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -526,7 +526,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['tchotchkes'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -540,7 +540,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['sui-magicians', 'tchotchkes'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -554,7 +554,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['suifties', 'tchotchkes', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -568,7 +568,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'banker',
 		shopCategories: ['shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -582,7 +582,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -596,7 +596,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'swimmer',
 		shopCategories: ['under-the-sui', 'bottoms'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -610,7 +610,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'grunge',
 		shopCategories: ['suifties', 'shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -624,7 +624,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'snorkel',
 		shopCategories: ['under-the-sui', 'shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -638,7 +638,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'punk',
 		shopCategories: ['cyber-frens', 'shirts-and-jackets', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -652,7 +652,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'artist',
 		shopCategories: ['artist', 'shirts-and-jackets'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -666,7 +666,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'snorkel',
 		shopCategories: ['under-the-sui', 'footwear'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -680,7 +680,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'cowboy',
 		shopCategories: ['footwear', 'artist'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -694,7 +694,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'banker',
 		shopCategories: ['footwear'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -708,7 +708,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['footwear', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -722,7 +722,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'swimmer',
 		shopCategories: ['under-the-sui', 'footwear'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -736,7 +736,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'grunge',
 		shopCategories: ['footwear'],
 		designer: 'mysten-labs',
-		purchasable: true,
+
 		version: 'v1',
 	},
 	{
@@ -750,7 +750,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['footwear', 'cyber-frens'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -764,7 +764,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['footwear', 'suifties', 'super-stars'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 	{
@@ -778,7 +778,7 @@ export const accessories: AccessoryMetadata[] = [
 		collection: '',
 		shopCategories: ['footwear', 'sui-magicians'],
 		designer: 'mysten-labs',
-		purchasable: false,
+
 		version: 'v1',
 	},
 ];

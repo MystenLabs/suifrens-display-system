@@ -37,5 +37,4 @@ export type AccessoryMetadata = {
 	shopCategories: AccessoryShopCategory[];
 	designer: AccessoryDesigner;
 	// flag accessories that is not on chain yet.
-	purchasable: boolean;
 } & (V1AccessoryMetadata | V2AccessoryMetadata);

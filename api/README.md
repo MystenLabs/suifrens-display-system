@@ -1,10 +1,14 @@
 ## Backend API for Suifrens
 
-### Prerequisites
+## Available Scripts
 
-- Node 18.x.x
-- pnpm
+In the project directory, you can run:
 
-For local development, please run it with: `pnpm run local`
+### `pnpm dev`
 
-For **production** deployment, run it with: `pnpm run start`
+To start the app in dev mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `pnpm start`
+
+## Learn More
