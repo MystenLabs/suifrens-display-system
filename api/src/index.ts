@@ -32,11 +32,12 @@ fastify.get('/', async (_request, _reply) => {
 
 
 fastify.listen({ port: FASTIFY_PORT }, (err, address) => {
+	
 	if (err) {
 		fastify.log.error(err);
 		process.exit(1);
 	}
-	fastify.log.info(`server listening on ${address}`);
+	console.log(`server listening on ${address}`);
 });
 
 // Register routes:
