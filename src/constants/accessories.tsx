@@ -1,15 +1,5 @@
-import { ReactNode } from "react";
-import {
-  AccessoryDesigner,
-  AccessoryMetadata,
-} from "../types/accessoryTypes.js";
-import { SuiLogo } from "../components/Logos/SuiLogo.js";
+import { AccessoryMetadata } from "../utils/accessoryUtils.js";
 
-export const designerToPartnerLogo: Record<AccessoryDesigner, ReactNode> = {
-  "mysten-labs": <SuiLogo />,
-};
-
-// Accessories lists names should match the names of the SVG files in the assets folder
 export const accessories: AccessoryMetadata[] = [
   {
     type: "head",
@@ -20,10 +10,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Baseball cap from the punk collection",
     collection: "punk",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -34,10 +20,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Beanie from the grunge collection",
     collection: "grunge",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -48,10 +30,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Beret from the artist collection",
     collection: "artist",
-    shopCategories: ["head-space", "artist"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -62,10 +40,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Bowler hat from the banker collection",
     collection: "banker",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -76,10 +50,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Cowboy Hat from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -90,10 +60,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Hair bow from the swimmer collection",
     collection: "swimmer",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -104,10 +70,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -118,10 +80,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["head-space"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -132,10 +90,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["suifties"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -146,10 +100,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["head-space", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -160,10 +110,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["head-space", "cyber-frens", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -174,10 +120,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["head-space", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "head",
@@ -188,10 +130,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Snorkel from the snorkel collection",
     collection: "snorkel",
-    shopCategories: ["under-the-sui"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "eyes",
@@ -202,10 +140,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["sui-specs", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "eyes",
@@ -216,10 +150,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["sui-specs", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "eyes",
@@ -230,10 +160,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["cyber-frens", "sui-specs"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "eyes",
@@ -244,10 +170,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["sui-specs", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "body",
@@ -258,10 +180,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Apron from the artist collection",
     collection: "artist",
-    shopCategories: ["artist"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "body",
@@ -272,10 +190,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Cardigan from the grunge collection",
     collection: "grunge",
-    shopCategories: ["shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "body",
@@ -286,10 +200,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Leather jacket from the punk collection",
     collection: "punk",
-    shopCategories: ["shirts-and-jackets", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "body",
@@ -300,10 +210,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Vest from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "back",
@@ -314,10 +220,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "wizard",
-    shopCategories: ["shirts-and-jackets", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "body",
@@ -328,10 +230,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["shirts-and-jackets", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "back",
@@ -342,10 +240,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -356,10 +250,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "White pants from the artist collection",
     collection: "artist",
-    shopCategories: ["artist", "bottoms"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -370,10 +260,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Bell bottoms from the grunge collection",
     collection: "grunge",
-    shopCategories: ["super-stars", "bottoms", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -384,10 +270,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Blue jeans from the punk collection",
     collection: "punk",
-    shopCategories: ["bottoms", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -396,12 +278,8 @@ export const accessories: AccessoryMetadata[] = [
     name: "business slacks",
     price: 2000000000,
     quantity: null,
-    description: "Bussiness slacks from the banker collection",
+    description: "Business slacks from the banker collection",
     collection: "banker",
-    shopCategories: ["bottoms", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -412,10 +290,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Cutoffs from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["bottoms", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -426,10 +300,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Swim trunks from the snorkel collection",
     collection: "snorkel",
-    shopCategories: ["under-the-sui"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -440,10 +310,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["cyber-frens", "bottoms", "sui-magicians", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -454,10 +320,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["suifties", "bottoms"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "legs",
@@ -468,10 +330,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["super-stars", "bottoms", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -482,10 +340,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Palette from the artist collection",
     collection: "artist",
-    shopCategories: ["artist", "tchotchkes"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -496,10 +350,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["artist", "tchotchkes"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -510,10 +360,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Lasso from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["tchotchkes"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -524,10 +370,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["tchotchkes"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -538,10 +380,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["sui-magicians", "tchotchkes"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "object",
@@ -552,10 +390,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["suifties", "tchotchkes", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -566,10 +400,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Business shirt from the banker collection",
     collection: "banker",
-    shopCategories: ["shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -580,10 +410,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Cowboy shirt from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -594,10 +420,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Swimsuit from the swimmer collection",
     collection: "swimmer",
-    shopCategories: ["under-the-sui", "bottoms"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -608,10 +430,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Heart shirt from the grunge collection",
     collection: "grunge",
-    shopCategories: ["suifties", "shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -622,10 +440,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Lifeguard from the snorkel collection",
     collection: "snorkel",
-    shopCategories: ["under-the-sui", "shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -636,10 +450,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Skull shirt from the punk collection",
     collection: "punk",
-    shopCategories: ["cyber-frens", "shirts-and-jackets", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "torso",
@@ -650,10 +460,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Stripe shirt from the artist collection",
     collection: "artist",
-    shopCategories: ["artist", "shirts-and-jackets"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -664,10 +470,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Blue slip ons from the snorkel collection",
     collection: "snorkel",
-    shopCategories: ["under-the-sui", "footwear"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -678,10 +480,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Boots from the cowboy collection",
     collection: "cowboy",
-    shopCategories: ["footwear", "artist"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -692,10 +490,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Casual shoes from the banker collection",
     collection: "banker",
-    shopCategories: ["footwear"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -706,10 +500,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["footwear", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -720,10 +510,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Pink slip ons from the swimmer collection",
     collection: "swimmer",
-    shopCategories: ["under-the-sui", "footwear"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -734,10 +520,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "Sneakers from the grunge collection",
     collection: "grunge",
-    shopCategories: ["footwear"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -748,10 +530,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["footwear", "cyber-frens"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -762,10 +540,6 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["footwear", "suifties", "super-stars"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
   {
     type: "feet",
@@ -776,9 +550,5 @@ export const accessories: AccessoryMetadata[] = [
     quantity: null,
     description: "",
     collection: "",
-    shopCategories: ["footwear", "sui-magicians"],
-    designer: "mysten-labs",
-
-    version: "v1",
   },
 ];

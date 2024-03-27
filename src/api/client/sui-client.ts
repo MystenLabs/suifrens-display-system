@@ -6,11 +6,11 @@ import {
   BULLSHARK_TYPE,
   ACCESSORIES_KEY_TYPE,
 } from "../lib/config.js";
-import { AccessoryMetadata } from "../../types/accessoryTypes.js";
-import { SuiFrenType } from "../../types/suiFrenTypes.js";
+import { SuiFrenType } from "../../components/types.js";
 import { parseSuiFrenAttributes } from "../../utils/attributeUtils.js";
 import { extractBaseFrenType } from "../../utils/objectTypeUtils.js";
 import { accessories } from "../../constants/accessories.js";
+import { AccessoryMetadata } from "../../utils/accessoryUtils.js";
 
 const rpcUrl = getFullnodeUrl(NETWORK);
 const suiClient = new SuiClient({ url: rpcUrl });

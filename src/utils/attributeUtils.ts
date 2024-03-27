@@ -1,6 +1,6 @@
-import { SuiFrenAttributes, SuiFrenType } from "../types/suiFrenTypes.js";
-import { BullsharkAttributes } from "../types/bullsharkTypes.js";
-import { CapyAttributes } from "../types/capyTypes.js";
+import { SuiFrenAttributes, SuiFrenType } from "../components/types.js";
+import { BullsharkAttributes } from "../components/bullshark-image/types.js";
+import { CapyAttributes } from "../components/capy-image/types.js";
 import { earGeneToEarShape } from "../constants/attributes.js";
 
 export function parseSuiFrenAttributes(

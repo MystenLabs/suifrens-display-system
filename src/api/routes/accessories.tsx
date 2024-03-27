@@ -3,11 +3,9 @@ import { Type, TypeBoxTypeProvider } from "@fastify/type-provider-typebox";
 
 import { renderToStaticMarkup } from "react-dom/server";
 
+import { SuiLogo } from "../../components/logos/SuiLogo.js";
 import { SuiFrenImage } from "../../components/SuiFrenImage.js";
-import {
-  designerToPartnerLogo,
-  accessories as suiFrensAccessories,
-} from "../../constants/accessories.js";
+import { accessories as suiFrensAccessories } from "../../constants/accessories.js";
 
 export const accessories: FastifyPluginAsync = async (fastify) => {
   fastify.withTypeProvider<TypeBoxTypeProvider>().get(
@@ -47,7 +45,7 @@ export const accessories: FastifyPluginAsync = async (fastify) => {
             earShape: "default",
           }}
           accessories={[accessory]}
-          logo={designerToPartnerLogo[accessory.designer]}
+          logo={<SuiLogo />}
           shadow
           incognito
         />

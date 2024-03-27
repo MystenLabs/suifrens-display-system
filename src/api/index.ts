@@ -7,14 +7,14 @@ import { accessories } from "./routes/accessories.js";
 
 const fastify = Fastify({
   logger: {
-	transport: {
-		target: 'pino-pretty',
-		options: {
-		  translateTime: 'HH:MM:ss Z',
-		  ignore: 'pid,hostname',
-		},
-	  },
-  }
+    transport: {
+      target: "pino-pretty",
+      options: {
+        translateTime: "HH:MM:ss Z",
+        ignore: "pid,hostname",
+      },
+    },
+  },
 });
 
 // Register plugins:
