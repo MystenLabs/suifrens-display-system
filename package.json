@@ -4,6 +4,7 @@
   "private": true,
   "sideEffects": false,
   "version": "1.0.0",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "tsx watch ./src/api/index.ts",
     "storybook": "storybook dev -p 6006",
