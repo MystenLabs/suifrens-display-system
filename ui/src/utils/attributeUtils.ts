@@ -1,5 +1,3 @@
-import { type MoveStruct } from '@mysten/sui.js/client';
-
 import { SuiFrenAttributes, SuiFrenType } from '../types/suiFrenTypes';
 import { BullsharkAttributes } from '../types/bullsharkTypes';
 import { CapyAttributes } from '../types/capyTypes';

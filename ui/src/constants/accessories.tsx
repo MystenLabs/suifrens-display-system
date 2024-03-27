@@ -22,7 +22,6 @@ export const accessories: AccessoryMetadata[] = [
 		collection: 'punk',
 		shopCategories: ['head-space'],
 		designer: 'mysten-labs',
-
 		version: 'v1',
 	},
 	{

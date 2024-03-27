@@ -21,8 +21,6 @@
 		"build-storybook": "storybook build"
 	},
 	"dependencies": {
-		"@growthbook/growthbook": "^0.25.0",
-		"@mysten/sui.js": "^0.46.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
