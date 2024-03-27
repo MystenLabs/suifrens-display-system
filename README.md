@@ -24,10 +24,10 @@ pnpm i
 pnpm run storybook
 ```
 
-We have also provided a backend built using Fastify that can generate SuiFren character images based on live on-chain data. For this functionality, we take advantage of React DOM to statically render our SuiFren image component into a valid SVG asset. To get the backend running:
+We have also provided a backend built using Fastify that can generate SuiFren character images based on live on-chain data. For this functionality, we take advantage of ReactDOM to statically render SuiFren image components into valid SVG assets. To get the backend running:
 
 ```
 pnpm run dev
 ```
 
-We can now test out the `/suifrens/<suiFrenId>/svg` API by visiting this [URL](http://localhost:3000/suifrens/0xbe79e1415bb4fd7d0d83b325110086d7604ffeaf526dabb30380fe7ae3c51e19/svg) which renders a Capy on Sui mainnet.
+We can now test out the `/suifrens/:suiFrenId/svg` API by visiting this [URL](http://localhost:3000/suifrens/0xbe79e1415bb4fd7d0d83b325110086d7604ffeaf526dabb30380fe7ae3c51e19/svg) which returns a Capy image based on a mainnet SuiFren object.
