@@ -5,7 +5,7 @@
   "sideEffects": false,
   "version": "1.0.0",
   "scripts": {
-    "dev": "ts-node --esm ./src/api/index.ts",
+    "dev": "tsx watch ./src/api/index.ts",
     "storybook": "storybook dev -p 6006",
     "prettier:fix": "prettier -w --ignore-unknown ."
   },
@@ -17,7 +17,7 @@
     "@fastify/type-provider-typebox": "^4.0.0",
     "@growthbook/growthbook": "^0.25.0",
     "@mysten/bcs": "^0.11.1",
-    "@mysten/sui.js": "^0.46.1",
+    "@mysten/sui.js": "^0.51.0",
     "fastify": "^4.26.2",
     "fastify-plugin": "^4.5.1",
     "react": "^18.2.0",
@@ -39,9 +39,10 @@
     "autoprefixer": "^10.4.13",
     "pino-pretty": "^11.0.0",
     "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.2",
     "prettier": "^2.8.3",
     "storybook": "^8.0.4",
-    "tailwindcss": "^3.2.4",
+    "tsx": "^3.12.7",
     "ts-node": "^10.9.2",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
